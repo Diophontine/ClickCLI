@@ -1,5 +1,3 @@
-
-# top level added in main
 import os
 import shutil
 import click
@@ -15,13 +13,11 @@ def file(ctx):
 def create(ctx):
     pass
 
-# top level added in main
 @file.group()
 @click.pass_context
 def delete(ctx):
     pass
 
-# top level added in main
 @file.group()
 @click.pass_context
 def get(ctx):

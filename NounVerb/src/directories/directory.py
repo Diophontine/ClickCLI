@@ -1,5 +1,3 @@
-
-# top level added in main
 import os
 import shutil
 import click
